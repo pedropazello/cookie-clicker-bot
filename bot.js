@@ -4,8 +4,8 @@ function clickOnCookie(){
 }
 
 function buyResources() {
-	var cursor = $("#product0")
-	var grandma = $("#product1")
+  var cursor = $("#product0")
+  var grandma = $("#product1")
   var farm = $("#product2")
   var mine = $("#product3")
   var factory = $("#product4")
@@ -22,7 +22,7 @@ function buyResources() {
     product.click()
   })
 
-	setTimeout(buyResources, 1000);
+  setTimeout(buyResources, 1000);
 }
 
 function clickOnRandomCookies() {
